@@ -1,5 +1,5 @@
 # This txt list producer candidate accounts that will be created once GOC launch, please check
-# If you want to change or add your key, just modify your bp.ini in producer_info file, this document will auto updated
+# If you want to change or add your key, just modify your bp.ini in producer_info file, this document will be updated automatically
 # Format: producername-ownerkey-activekey(you can ingnore activekey)
 
 blockgobooot-GOC71wmmiEVAoJtAUJvQLL2DyfAnti5U9yeiSJZmEEjaW3VoqKALv
