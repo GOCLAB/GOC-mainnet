@@ -2,6 +2,8 @@
 
 GOC主网代码：https://github.com/GOCLAB/goc  【tag：mainnet-v1.0.0】
 
+docker启动：https://github.com/GOCLAB/GOC-mainnet/tree/master/docker
+
 主网启动时，候选节点账户创建名单：https://github.com/GOCLAB/GOC-mainnet/blob/master/bp_accounts.txt
 
 主网启动后GOCLAB将会在config文件下发布genesis.json和初始节点p2p地址
