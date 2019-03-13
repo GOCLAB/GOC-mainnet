@@ -7,8 +7,8 @@ if [ -f ./bp_accounts.txt ]
 fi
 
 echo "# This txt list producer candidate accounts that will be created once GOC launch, please check" >> ./bp_accounts.txt
-echo "# If you want to change or add your key, just modify your bp.ini in producer_info file, this document will be updated automatically" >> ./bp_accounts.txt
-echo -e "# Format: producername-ownerkey-activekey(you can ingnore activekey)\n" >> ./bp_accounts.txt
+echo "# Format: producername-ownerkey-activekey(you can ingnore activekey if you like)" >> ./bp_accounts.txt
+echo -e "# If you want to change or add your key, just modify your bp.ini in producer_info file, this document will be updated automatically\n" >> ./bp_accounts.txt
 
 FILENAME="./producer-info/"
 BPS="$(ls $FILENAME)"
