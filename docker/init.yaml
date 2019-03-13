@@ -7,7 +7,7 @@ services:
     hostname: goc
     ports:
       - 8888:8888
-      - 8888:9876
+      - 9876:9876
     volumes:
       - /data/goc/testnet/data:/opt/goc/data
       - /data/goc/testnet/config:/opt/goc/config
