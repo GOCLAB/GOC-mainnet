@@ -1,12 +1,12 @@
 # GOC主网相关资料
 
+主网Chain ID：4abcef3ea73a7cd42b2e39e247355048b684225d21d68aa303dd22712e8ca05d
+
 GOC主网代码：https://github.com/GOCLAB/goc  【tag：mainnet-v1.0.0】
 
 docker启动：https://github.com/GOCLAB/GOC-mainnet/tree/master/docker
 
 主网启动时，候选节点账户创建名单：https://github.com/GOCLAB/GOC-mainnet/blob/master/bp_accounts.txt
-
-主网启动后GOCLAB将会在config文件下发布genesis.json和初始节点p2p地址
 
 竞选GOC主网出块节点的BP技术信息位于producer-info文件下，各BP在p2p和api地址变动时需要对其信息进行相应更新
 
@@ -37,6 +37,8 @@ cd ~/goc/build/programs/cleos   # 进入cleos目录
 
 
 ### 三、注册出块BP
+
+需boot节点恢复出块后才能进行
 
 ```shell
 ./cleos wallet create_key    # 创建一对公私钥作为producer key
@@ -86,7 +88,7 @@ genesis.json文件定义了初始链状态，所有节点必须从相同的初�
 
 2、config.ini
 
-将文件config里的[config.ini](https://github.com/GOCLAB/GOC-mainnet/blob/master/config/config.ini)复制到~/goc/build/programs/nodeos文件夹下，**也可在演练或正式启动之后发布初始p2p信息后自行配置**
+将文件config里的[config.ini](https://github.com/GOCLAB/GOC-mainnet/blob/master/config/config.ini)复制到~/goc/build/programs/nodeos文件夹下
 
 
 ### 五、启动出块节点
