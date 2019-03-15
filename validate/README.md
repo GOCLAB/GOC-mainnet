@@ -22,7 +22,7 @@ cd ./GOC-mainnet/validate
 
 正确输入即可运行验证脚本，出现下图即为验证通过
 
-![pass.png](https://github.com/GOCLAB/GOC-mainnet/blob/GOCLAB-patch-1/validate/pass.png)
+![pass.png](https://github.com/GOCLAB/GOC-mainnet/blob/master/validate/pass.png)
 
 ## 验证内容
 
