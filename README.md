@@ -40,7 +40,7 @@ cd ~/goc/build/programs/cleos   # 进入cleos目录
 
 ```shell
 ./cleos wallet create_key    # 创建一对公私钥作为producer key
-./cleos -u http://api.goclab.io:8888 system regproducer <yourbpname> <your_producer_pub_key>
+./cleos -u http://api.goclab.io:8080 system regproducer <yourbpname> <your_producer_pub_key>
 # yourbpname为你的BP账户名，your_producer_pub_key为上一条命令创建的公钥
 ```
 
@@ -54,12 +54,12 @@ cd ~/goc/build/programs/cleos   # 进入cleos目录
 
 1、genesis.json
 
-在~/goc/build/programs/nodeos文件夹下创建 *genesis.json* 文件，填入以下内容【此为演练版本，非主网版本】：
+在~/goc/build/programs/nodeos文件夹下创建 *genesis.json* 文件，填入以下内容：
 
 ```json
 {
   "initial_timestamp": "2019-01-01T00:00:00.000",
-  "initial_key": "GOC7KeZWwW2N6XHSPaup8Zey15YmWpujY4dJFxQoj1QKrGXvBYpYL",
+  "initial_key": "GOC5fpw5RaLW2QLuTjKzT4QVbkw65vSz7ctwwc6FGAqQ58dkxcMFa",
   "initial_configuration": {
     "max_block_net_usage": 1048576,
     "target_block_net_usage_pct": 1000,
