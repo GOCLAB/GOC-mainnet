@@ -22,7 +22,7 @@ cd ./GOC-mainnet/validate
 
 正确输入即可运行验证脚本，出现下图即为验证通过
 
-![image-20190315142334112](/Users/cc/Library/Application Support/typora-user-images/image-20190315142334112.png)
+![pass.png](https://github.com/GOCLAB/GOC-mainnet/blob/GOCLAB-patch-1/validate/pass.png)
 
 ## 验证内容
 
