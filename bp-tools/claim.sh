@@ -4,7 +4,6 @@
 BPNAME=<yourbpname>   # such as BPNAME=goclabgoclab
 PRIVATE_KEY=<yourprivatekey>
 BIN_DIR='<your programs dir>'      # such as BIN_DIR='/home/goclab/goc/build/programs'
-WALLET_HOST='<your keosd --http-server-address>' # such as WALLET_HOST='127.0.0.1:8900'
 NODE_HOST='<your nodeos --http-server-address>' # such as NODE_HOST='127.0.0.1:8888' or NODE_HOST='api.goclab.io:8080'
 
 
@@ -14,6 +13,7 @@ CLEOS="$BIN_DIR/cleos/cleos -u http://$NODE_HOST --wallet-url http://$WALLET_HOS
 PERMISSION=claimer
 WALLETNAME=claim
 WALLETDIR="./claim-wallet"
+WALLET_HOST='127.0.0.1:4526'
 
 
 # step 1: wait until 1 hour from last claim
