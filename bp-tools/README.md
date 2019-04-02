@@ -37,7 +37,7 @@ vim ./setclaimer.sh
 ```shell
 vim ./claim.sh
 # 将claim.sh中的<yourbpname>和<yourprivatekey>分别替换成你的BP账户名及新创建的claimer公钥所对应的私钥
-# <your programs dir>替换为本地build/programs路径，<your keosd --http-server-address>替换为本地keosd钱包服务的http-server-address
+# <your programs dir>替换为本地完整的build/programs路径
 # <your nodeos --http-server-address>替换为本地nodeos节点的http-server-address，若无本地节点，可替换为api.goclab.io:8080
 ./claim.sh # 检查能否正确执行
 ```
