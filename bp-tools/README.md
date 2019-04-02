@@ -28,7 +28,7 @@ cd ./GOC-mainnet/bp-tools
 vim ./setclaimer.sh
 # 将setclaimer.sh中的<yourbpname>和<yournewkey>分别替换成你的BP账户名及新创建的claimer公钥
 # <your cleos dir>替换为可执行cleos路径，<your keosd --http-server-address>替换为本地keosd钱包服务的http-server-address
-./setclaimer.sh
+./setclaimer.sh  # 执行前请确保keosd已解锁钱包中包含BP账户的active或owner权限的私钥。若没有则需先导入
 ```
 
 
