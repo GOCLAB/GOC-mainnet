@@ -6,7 +6,7 @@ GOC主网代码：https://github.com/GOCLAB/goc  【tag：mainnet-v1.0.0】
 
 docker启动：https://github.com/GOCLAB/GOC-mainnet/tree/master/docker
 
-主网启动时，候选节点账户创建名单：https://github.com/GOCLAB/GOC-mainnet/blob/master/bp_accounts.txt
+支持GOC的eosjs:https://github.com/GOCLAB/eosjs    【branch：goc】
 
 竞选GOC主网出块节点的BP技术信息位于producer-info文件下，各BP在p2p和api地址变动时需要对其信息进行相应更新
 
