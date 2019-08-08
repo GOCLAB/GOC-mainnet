@@ -1,5 +1,7 @@
 # GOC主网相关资料
 
+出块节点最低配置：2核8G内存，公网ip+3m以上带宽，300G以上SSD
+
 主网Chain ID：4abcef3ea73a7cd42b2e39e247355048b684225d21d68aa303dd22712e8ca05d
 
 GOC主网代码：https://github.com/GOCLAB/goc  【tag：mainnet-v1.0.0】
