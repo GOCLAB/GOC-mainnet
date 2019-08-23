@@ -28,7 +28,7 @@ sudo ./eosio_install.sh
 
 ### 二、导入BP账户
 
-由于主网启动时将会根据[bp_accounts.txt](https://github.com/GOCLAB/GOC-mainnet/blob/master/bp_accounts.txt)候选节点账户名单为各位BPC创建GOC主网账户，因此各位节点只需在服务器中启动钱包服务并导入名单中公钥所对应的私钥即可，具体步骤如下：
+由于主网启动时将会根据[bp_accounts.txt](https://github.com/GOCLAB/GOC-mainnet/blob/master/bp_accounts.txt)候选节点账户名单为各位BPC创建GOC主网账户，因此各位节点只需在服务器中启动钱包服务并导入名单中公钥所对应的私钥即可（已有goc账户也可直接导入），具体步骤如下：
 
 ```shell
 ~/goc/build/programs/keosd/keosd &  # 后台启动钱包服务
@@ -40,7 +40,6 @@ cd ~/goc/build/programs/cleos   # 进入cleos目录
 
 ### 三、注册出块BP
 
-需boot节点恢复出块后才能进行
 
 ```shell
 ./cleos wallet create_key    # 创建一对公私钥作为producer key
@@ -124,7 +123,7 @@ cd ~/goc/build/programs/cleos
 ./cleos get schedule 
 # 查看当前GOC主网出块节点
 ```
-当GOC主网激活、nodeos同步到最新块，且得票数足够多BP账户出现在schedule中时，便可观察自己的节点是否正常出块
+当nodeos同步到最新块，且得票数足够多BP账户出现在schedule中时，便可观察自己的节点是否正常出块
 
 
 
